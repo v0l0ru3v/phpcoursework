@@ -1,0 +1,75 @@
+.active {
+    color: red;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+body {
+    margin: 100px;
+    background-color: #10151C;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FA0369;
+}
+
+label {
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.add {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    border-radius: 14px;
+    color: #FFFFFF;
+    background-color: #FA0369;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+li {
+    font-size: 17px;
+    padding-top: 5px;
+    color: #FFFFFF;
+}
+
+h1, h2 {
+    color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#text {
+    padding: 10px;
+    color:#FFFFFF;
+}
